@@ -1,5 +1,5 @@
 body{
-    background-image: url(../Imagens/captura-de-tela-94_8z7n.1280_1.png);
+    background-image: url(Imagens/captura-de-tela-94_8z7n.1280_1.png);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -7,7 +7,7 @@ body{
 
 @font-face {
     font-family: gow;
-    src: url(../Fontes/Cocogoose-Pro-Semilight-trial.ttf);
+    src: url(Fontes/Cocogoose-Pro-Semilight-trial.ttf);
 }
 
 p{
