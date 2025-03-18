@@ -1,0 +1,38 @@
+body{
+    background-image: url(../Imagens/deserto.png);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+*{
+    color: white;
+}
+
+@font-face {
+    font-family: gow;
+    src: url(../Fontes/Horizon-nMeM.ttf);
+}
+
+@font-face {
+    font-family: gow2;
+    src: url(../Fontes/Cocogoose-Pro-Semilight-trial.ttf);
+}
+
+@font-face {
+    font-family: subtitle;
+    src: url(../Fontes/Westmount\ Extra\ Light.ttf);
+}
+
+#perguntas{
+    font-family: gow;
+    color: white;
+    font-size: 100pt;
+    padding: 2rem 10rem;
+    text-shadow: 2px 2px 2px black;
+}
+
+#questions{
+    text-shadow: 2px 2px 2px black;
+}
+

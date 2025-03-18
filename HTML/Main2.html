@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/Design2.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <title>AI.dilson</title>
+    <link rel="icon" href="../Imagens/icon.ico">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        </button>
+      
+        <div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="../index.html">Inicio <span class="sr-only">(página atual)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../HTML/Main3.html">Beneficios</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Dropdown
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Ação</a>
+                <a class="dropdown-item" href="#">Outra ação</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Algo mais aqui</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#">Desativado</a>
+            </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+          </form>
+        </div>
+      </nav>''
+
+      <div class="container-fluid" id="box">
+        <h4>Exemplos</h4>
+        <p>A aplicação da inteligência artificial (IA) na geografia tem crescido significativamente, embora seja desafiador encontrar estatísticas precisas sobre sua adoção específica nesta área. 
+          No entanto, podemos destacar algumas informações relevantes que ilustram o impacto da IA em contextos geográficos:</p>
+      </div>
+
+      <div class="card" style="width: 18rem;" id="card">
+        <img class="card-img-top" src="../Imagens/a-importancia-dos-mapas-na-sociedade-atual.jpg" alt="Imagem de capa do card">
+        <div class="card-body">
+          <p class="card-text">Pesquisadores desenvolveram métodos de visão computacional baseados em aprendizado de máquina para 
+            criar mapas populacionais com resolução de aproximadamente 30 metros para 18 países.</p>
+        </div>
+      </div>
+
+      <div class="card" style="width: 18rem;" id="card2">
+        <img class="card-img-top" src="../Imagens/crescimento-populacional_237596851.jpg" alt="Imagem de capa do card">
+        <div class="card-body">
+          <p class="card-text">Esses métodos apresentaram uma precisão média de 95% na identificação de edificações e 
+            estimativas populacionais com um erro padrão de aproximadamente 2 vezes.</p>
+        </div>
+      </div>
+
+      <div class="card" style="width: 18rem;" id="card3">
+        <img class="card-img-top" src="../Imagens/GEOAI-logo-de.jpg" alt="Imagem de capa do card">
+        <div class="card-body">
+          <p class="card-text">A inteligência artificial geoespacial (GeoAI) combina IA com dados geoespaciais para acelerar a 
+            compreensão de oportunidades de negócios, impactos ambientais e riscos operacionais. </p>
+        </div>
+      </div>
+
+      <div class="container-fluid" id="biogás">
+          <h1>Predição de Locais para Usinas de Biogás</h1>
+          <p>Um estudo utilizou dados geográficos e algoritmos de IA para prever locais ideais para a instalação de usinas de biogás provenientes da cana-de-açúcar.<br> 
+            Foram comparados seis tipos de algoritmos de classificação, demonstrando a eficácia da GeoIA na identificação de locais favoráveis. A inteligência artificial <br> 
+            (IA) está sendo usada para prever locais ideais para usinas de biogás, combinando dados geográficos com algoritmos de aprendizado de máquina. Um estudo analisou <br> 
+            a instalação de usinas a partir da cana-de-açúcar em São Paulo e Goiás, utilizando seis algoritmos. O Random Forest teve o melhor desempenho, identificando locais <br> 
+            favoráveis. A IA melhora a precisão na análise de dados, otimiza o planejamento e reduz impactos ambientais, contribuindo para a expansão da energia renovável. </p>
+    
+      </div>
+
+      <img id="img" src="../Imagens/Usinas-de-biogas.jpg" alt="usina de biogas"> 
+
+      <script>
+        window.onload = function() {
+            setTimeout(() => {
+                document.getElementById("box").style.opacity = "1";
+            }, 500); // Aparece após 0.5 segundos
+
+            setTimeout(() => {
+                document.getElementById("card").style.opacity = "1";
+            }, 2000); // Aparece após 0.5 segundos
+
+            setTimeout(() => {
+                document.getElementById("card2").style.opacity = "1";
+            }, 2500); // Aparece após 0.5 segundos
+
+            setTimeout(() => {
+                document.getElementById("card3").style.opacity = "1";
+            }, 3000); // Aparece após 0.5 segundos
+
+            setTimeout(() => {
+                document.getElementById("biogás").style.opacity = "1";
+            }, 3500); // Aparece após 0.5 segundos
+
+            setTimeout(() => {
+                document.getElementById("img").style.opacity = "1";
+            }, 3500); // Aparece após 0.5 segundos
+        };
+    
+        
+    </script>
+</body>
+</html>tml>

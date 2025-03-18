@@ -1,0 +1,171 @@
+body{
+    background-image: url(../Imagens/captura-de-tela-94_8z7n.1280_1.png);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+@font-face {
+    font-family: gow;
+    src: url(../Fontes/Cocogoose-Pro-Semilight-trial.ttf);
+}
+
+p{
+    font-size: 12pt;
+}
+.container{
+    background-color: rgba(32, 32, 32, 0.5);
+    color: white;
+    border-radius: 10px;
+    border: solid 1px;
+    border-width: 2px;
+    border-color: white;
+    font-family: gow;
+    font-size: 120pt;
+    position: absolute;
+    left: 10px;
+    top: 70px;
+    width: 1850;
+    opacity: 0;
+    transition: opacity 2s;
+}
+
+#biogás{
+    background-color: rgba(32, 32, 32, 0.5);
+    color: white;
+    border-radius: 10px;
+    border: solid 1px;
+    border-width: 2px;
+    border-color: #1a2c4a;
+    font-family: gow;
+    font-size: 120pt;
+    position: absolute;
+    left: 10px;
+    top: 240px;
+    opacity: 0;
+    transition: opacity 2s;
+}
+
+#img1{
+    opacity: 0;
+    transition: opacity 2s;
+    position: absolute;
+    left: 1300px;
+    top: 240px;
+    border-radius: 10px;
+    border: solid 1px;
+    border-width: 2px;
+    border-color: #1a2c4a;
+}
+
+#biogás2{
+    background-color: rgba(32, 32, 32, 0.5);
+    color: white;
+    border-radius: 10px;
+    border: solid 1px;
+    border-width: 2px;
+    border-color: black;
+    font-family: gow;
+    font-size: 120pt;
+    position: absolute;
+    left: 10px;
+    top: 600px;
+    opacity: 0;
+    transition: opacity 2s;
+}
+
+#img2{
+    opacity: 0;
+    transition: opacity 2s;
+    position: absolute;
+    left: 1300px;
+    top: 600px;
+    border-radius: 10px;
+    border: solid 1px;
+    border-width: 2px;
+    border-color: black;
+}
+
+#biogás3{
+    background-color: rgba(32, 32, 32, 0.5);
+    color: white;
+    border-radius: 10px;
+    border: solid 1px;
+    border-width: 2px;
+    border-color: #b47466;
+    font-family: gow;
+    font-size: 120pt;
+    position: absolute;
+    left: 10px;
+    top: 883px;
+    opacity: 0;
+    transition: opacity 2s;
+}
+
+#img3{
+    opacity: 0;
+    transition: opacity 2s;
+    position: absolute;
+    left: 1300px;
+    top: 883px;
+    border-radius: 10px;
+    border: solid 1px;
+    border-width: 2px;
+    border-color: #b47466;
+}
+
+#biogás4{
+    background-color: rgba(32, 32, 32, 0.5);
+    color: white;
+    border-radius: 10px;
+    border: solid 1px;
+    border-width: 2px;
+    border-color: #938693;
+    font-family: gow;
+    font-size: 120pt;
+    position: absolute;
+    left: 10px;
+    top: 1150px;
+    opacity: 0;
+    transition: opacity 2s;
+}
+
+#img4{
+    opacity: 0;
+    transition: opacity 2s;
+    position: absolute;
+    left: 1300px;
+    top: 1150px;
+    border-radius: 10px;
+    border: solid 1px;
+    border-width: 2px;
+    border-color: #938693;
+}
+
+#biogás5{
+    background-color: rgba(32, 32, 32, 0.5);
+    color: white;
+    border-radius: 10px;
+    border: solid 1px;
+    border-width: 2px;
+    border-color: #938693;
+    font-family: gow;
+    font-size: 120pt;
+    position: absolute;
+    left: 10px;
+    top: 1420px;
+    opacity: 0;
+    transition: opacity 2s;
+}
+
+#img5{
+    opacity: 0;
+    transition: opacity 2s;
+    position: absolute;
+    left: 1300px;
+    top: 1420px;
+    border-radius: 10px;
+    border: solid 1px;
+    border-width: 2px;
+    border-color: #47485f;
+}

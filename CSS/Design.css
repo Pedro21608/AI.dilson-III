@@ -1,0 +1,127 @@
+body{
+    background-image: url(../Imagens/aidilson-bg.png);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+@font-face {
+    font-family: gow;
+    src: url(../Fontes/Horizon-nMeM.ttf);
+}
+
+@font-face {
+    font-family: gow2;
+    src: url(../Fontes/Cocogoose-Pro-Semilight-trial.ttf);
+}
+
+@font-face {
+    font-family: subtitle;
+    src: url(../Fontes/Westmount\ Extra\ Light.ttf);
+}
+
+#Titulo {
+    font-weight: 300;
+    color: white;
+    font-family: gow;
+    font-size: 10vw; /* ajusta proporcionalmente à largura do viewport */
+    position: fixed;
+    left: 50%;
+    top: 20vh;
+    transform: translateX(-50%);
+    user-select: none;
+}
+
+#subTitle {
+    font-weight: 200;
+    font-size: 3vw;
+    color: white;
+    font-family: subtitle;
+    position: fixed;
+    left: 50%;
+    top: 55vh;
+    transform: translateX(-50%);
+    user-select: none;
+}
+
+#prisite{
+    font-weight: bold;
+    color: white;
+    font-family: gow2;
+    font-size: 20pt;
+    position: absolute;
+    left: 6rem;
+    top: 40rem;
+}
+
+#prisite:hover{
+    font-weight: bold;
+    color: rgb(214, 214, 119);
+    font-family: gow2;
+    font-size: 20pt;
+    text-decoration: underline;
+    position: absolute;
+    left: 6rem;
+    top: 40rem;
+}
+
+#segsite{
+    font-weight: bold;
+    color: white;
+    font-family: gow2;
+    font-size: 20pt;
+    position: absolute;
+    left: 6rem;
+    top: 43rem;
+}
+
+#segsite:hover{
+    font-weight: bold;
+    color: rgb(214, 214, 119);
+    font-family: gow2;
+    font-size: 20pt;
+    text-decoration: underline;
+    position: absolute;
+    left: 6rem;
+    top: 43rem;
+}
+
+#tersite{
+    font-weight: bold;
+    color: white;
+    font-family: gow2;
+    font-size: 20pt;
+    position: absolute;
+    left: 6rem;
+    top: 46rem;
+}
+
+#tersite:hover{
+    font-weight: bold;
+    color: rgb(214, 214, 119);
+    font-family: gow2;
+    font-size: 20pt;
+    text-decoration: underline;
+    position: absolute;
+    left: 6rem;
+    top: 46rem;
+}
+
+#divs1{
+    border: double 7px;
+    border-radius: 8px;
+    width: 1600px;
+    height: 600px;
+    border-color: black;
+    background-color: white;
+}
+
+#text{
+    color: black;
+ }
+ #text2{
+    color: black;
+ }
+ #circle{
+    color: black;
+ }
+

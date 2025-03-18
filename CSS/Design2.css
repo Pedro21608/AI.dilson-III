@@ -1,0 +1,98 @@
+body{
+    background-image: url(../Imagens/floresta.png);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+@font-face {
+    font-family: gow;
+    src: url(../Fontes/Orbitron-Medium.ttf);
+}
+
+.container-fluid{
+    background-color: rgba(32, 32, 32, 0.5);
+    color: white;
+    font-family: gow;
+    font-size: 120pt;
+    position: absolute;
+    left: 10px;
+    top: 70px;
+    size: 1850;
+    opacity: 0;
+    transition: opacity 2s;
+    border: solid 1px;
+    border-width: 2px;
+    border-radius: 10px;
+}
+
+
+.card-img-top{
+    border-radius: 9rem;
+    border: solid 1px;
+    border-width: 1px;
+}
+
+.card{
+    opacity: 0;
+    transition: opacity 2s;
+    position: absolute;
+    left: 200px;
+    top: 150px;
+    color: black;
+    font-family: gow;
+    font-weight: 400;
+}
+
+#card2{
+    opacity: 0;
+    transition: opacity 2s;
+    position: absolute;
+    left: 700px;
+    top: 230px;
+    color: black;
+    font-family: gow;
+}
+
+#card3{
+    opacity: 0;
+    transition: opacity 2s;
+    position: absolute;
+    left: 1200px;
+    top: 230px;
+    color: black;
+    font-family: gow;
+}
+
+#biogás{
+    background-color: rgba(32, 32, 32, 0.5);
+    size: 1850;
+    opacity: 0;
+    transition: opacity 2s;
+    position: absolute;
+    left: 10px;
+    top: 700px;
+    color: white;
+    font-family: gow;
+    border-radius: 10px;
+    border: solid 1px;
+    border-width: 2px;
+    /*display: flex;
+    justify-content: right;
+    align-items: center;*/
+}
+
+#img{
+    opacity: 0;
+    transition: opacity 2s;
+    position: absolute;
+    left: 1600px;
+    top: 715px;
+    border-radius: 10px;
+    border: solid 1px;
+    border-width: 2px;
+    border-color: white;
+}
+
+p{
+    font-size: 12pt;
+}
