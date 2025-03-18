@@ -1,12 +1,12 @@
 body{
-    background-image: url(../Imagens/floresta.png);
+    background-image: url(Imagens/floresta.png);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
 }
 @font-face {
     font-family: gow;
-    src: url(../Fontes/Orbitron-Medium.ttf);
+    src: url(Fontes/Orbitron-Medium.ttf);
 }
 
 .container-fluid{
