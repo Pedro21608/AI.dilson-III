@@ -1,5 +1,5 @@
 body{
-    background-image: url(../Imagens/deserto.png);
+    background-image: url(Imagens/deserto.png);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -11,17 +11,17 @@ body{
 
 @font-face {
     font-family: gow;
-    src: url(../Fontes/Horizon-nMeM.ttf);
+    src: url(Fontes/Horizon-nMeM.ttf);
 }
 
 @font-face {
     font-family: gow2;
-    src: url(../Fontes/Cocogoose-Pro-Semilight-trial.ttf);
+    src: url(Fontes/Cocogoose-Pro-Semilight-trial.ttf);
 }
 
 @font-face {
     font-family: subtitle;
-    src: url(../Fontes/Westmount\ Extra\ Light.ttf);
+    src: url(Fontes/Westmount\ Extra\ Light.ttf);
 }
 
 #perguntas{
